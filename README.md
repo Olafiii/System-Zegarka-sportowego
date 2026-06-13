@@ -2,7 +2,7 @@
 System który zbiera i przetwarza dane z zegarka sportowego, do poszczególnych aktywności i przypisuje je do konkretnego użytkownika.
 user - klasa z właściwościami userID, firstName, age, height, weight i metodą DisplayProfile()
 smartWatch - klasa z właściwościami watchID, model, batteryLevel, owner(user) i metodami 
-startActivity(), showBatteryStatus(), syncData
+startActivity(), showBatteryStatus()
 activity - klasa abstrakcyjna z właściwościami activityID, date, durationMinutes, distanceKm i metodami CalculateCalories(abstrakcyjna), showSummary()
 Użytkownik posiada wiele aktywności:
 -runningActivity
